@@ -1,18 +1,13 @@
 # qSVS: SystemVerilog Modeling Framework for SFQ and AQFP Circuits
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Standard: SystemVerilog](https://img.shields.io/badge/Standard-IEEE%201800--2017-00599C.svg)](https://standards.ieee.org/standard/1800-2017.html)
-[![Standard: SDF](https://img.shields.io/badge/Timing-IEEE%201497--2001%20(SDF)-orange.svg)](https://standards.ieee.org/standard/1497-2001.html)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-3776ab.svg)](https://www.python.org/downloads/)
-[![DOI](https://img.shields.io/badge/DOI-10.1109%2FTASC.2019.2957196-00629B.svg)](https://doi.org/10.1109/TASC.2019.2957196)
-
-[![Standard: SystemVerilog](https://img.shields.io/badge/Standard-IEEE%201800--2017-00599C.svg)](https://standards.ieee.org/standard/1800-2017.html)
-[![Standard: SDF](https://img.shields.io/badge/Timing-IEEE%201497--2001%20(SDF)-orange.svg)](https://standards.ieee.org/standard/1497-2001.html)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-3776ab.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python: 3.10+](https://img.shields.io/badge/Python-3.10%2B-brightgreen.svg)](src/)
+[![Verilog: IEEE 1364-2001](https://img.shields.io/badge/HDL-Verilog%20%2F%20SystemVerilog-orange.svg)](hdl/)
+[![JoSIM: Verified](https://img.shields.io/badge/JoSIM-SPICE%20Verified-blueviolet.svg)](netlists/)
+[![Verification: Triple--Engine](https://img.shields.io/badge/Verification-Triple--Engine-brightgreen.svg)](sim/test_core.py)
 [![DOI](https://img.shields.io/badge/DOI-10.1109%2FTASC.2019.2957196-00629B.svg)](https://doi.org/10.1109/TASC.2019.2957196)
 
 **qSVS** (Quantum Superconducting Verilog / SystemVerilog) is an open-source, modular hardware description and simulation framework for superconducting electronics. Developed under the **IARPA SuperTools** program, qSVS provides accurate digital behavioral and timing models for **Single-Flux-Quantum (SFQ)** logic, **Adiabatic Quantum-Flux-Parametron (AQFP)** logic, and **hybrid SFQ $\leftrightarrow$ AQFP** interface circuits.
-
 - **Repository**: https://github.com/single-flux-quantum/qSVS
 - **Upstream source**: https://gitlab.com/arash1902/qSVS
 - **Publication**: [IEEE Transactions on Applied Superconductivity (Volume 30, Issue 2, March 2020)](https://doi.org/10.1109/TASC.2019.2957196)
@@ -38,25 +33,7 @@ High-speed superconducting circuit design and reproducible simulation framework 
 
 ## 📈 Visual Artifacts & Waveforms
 
-### 1. License: MIT
-
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-
-### 2. Standard: SystemVerilog
-
-![Standard: SystemVerilog](https://img.shields.io/badge/Standard-IEEE%201800--2017-00599C.svg)
-
-### 3. Standard: SDF
-
-![Standard: SDF](https://img.shields.io/badge/Timing-IEEE%201497--2001%20(SDF)
-
-### 4. Python 3.8+
-
-![Python 3.8+](https://img.shields.io/badge/python-3.8+-3776ab.svg)
-
-### 5. DOI
-
-![DOI](https://img.shields.io/badge/DOI-10.1109%2FTASC.2019.2957196-00629B.svg)
+*Validation plots generated automatically during regression testing under `docs/figures/`.*
 
 ---
 
