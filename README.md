@@ -6,11 +6,13 @@
 [![JoSIM: Verified](https://img.shields.io/badge/JoSIM-SPICE%20Verified-blueviolet.svg)](netlists/)
 [![Verification: Triple--Engine](https://img.shields.io/badge/Verification-Triple--Engine-brightgreen.svg)](sim/test_core.py)
 [![DOI](https://img.shields.io/badge/DOI-10.1109%2FTASC.2019.2957196-00629B.svg)](https://doi.org/10.1109/TASC.2019.2957196)
+[![LLM: Assisted Research](https://img.shields.io/badge/LLM-Assisted%20Research-blueviolet.svg)](#research-disclaimer--llm-attribution)
 
 **qSVS** (Quantum Superconducting Verilog / SystemVerilog) is an open-source, modular hardware description and simulation framework for superconducting electronics. Developed under the **IARPA SuperTools** program, qSVS provides accurate digital behavioral and timing models for **Single-Flux-Quantum (SFQ)** logic, **Adiabatic Quantum-Flux-Parametron (AQFP)** logic, and **hybrid SFQ $\leftrightarrow$ AQFP** interface circuits.
 - **Repository**: https://github.com/single-flux-quantum/qSVS
 - **Upstream source**: https://gitlab.com/arash1902/qSVS
 - **Publication**: [IEEE Transactions on Applied Superconductivity (Volume 30, Issue 2, March 2020)](https://doi.org/10.1109/TASC.2019.2957196)
+[![LLM: Assisted Research](https://img.shields.io/badge/LLM-Assisted%20Research-blueviolet.svg)](#research-disclaimer--llm-attribution)
 - **License**: BSD 2-Clause (see [`LICENSE`](LICENSE))
 
 ---
@@ -21,7 +23,7 @@
 >
 > - **LLM-Assisted Engineering**: The circuit topologies, mathematical formulations, simulation scripts, testbenches, and documentation across this repository and its submodules were implemented and curated with the assistance of advanced Large Language Models (LLMs, including Gemini 3.7 / Antigravity Agentic Assistant) in collaboration with domain researchers.
 > - **Academic & Research Software**: This codebase is provided strictly for academic study, research reproducibility, educational exploration, and EDA prototyping. It is **not** certified or warrantied for physical IC fabrication or commercial tape-outs without independent domain engineering validation.
-> - **Physical Modeling Assumptions**: While individual cells undergo automated verification against published equations and figures, users must independently verify circuit netlists, junction parameters ($I_c$, $eta_c$, $J_c$), and layout parasitic inductances ($L$) prior to tape-out.
+> - **Physical Modeling Assumptions**: While individual cells undergo automated verification against published equations and figures, users must independently verify circuit netlists, junction parameters ($I_c$, $\beta_c$, $J_c$), and layout parasitic inductances ($L$) prior to tape-out.
 
 ---
 
