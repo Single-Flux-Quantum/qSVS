@@ -109,3 +109,9 @@ python src/triple_engine_comparator.py
   year      = {2026}
 }
 ```
+
+---
+
+## License
+
+This project is licensed under the BSD 2-Clause License - see the [LICENSE](LICENSE) file for details.
