@@ -1,6 +1,6 @@
 # qSVS: SystemVerilog Modeling Framework for SFQ and AQFP Circuits
 
-[![License: BSD-2-Clause](https://img.shields.io/badge/License-BSD_2--Clause-blue.svg)](https://opensource.org/licenses/BSD-2-Clause)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Standard: SystemVerilog](https://img.shields.io/badge/Standard-IEEE%201800--2017-00599C.svg)](https://standards.ieee.org/standard/1800-2017.html)
 [![Standard: SDF](https://img.shields.io/badge/Timing-IEEE%201497--2001%20(SDF)-orange.svg)](https://standards.ieee.org/standard/1497-2001.html)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-3776ab.svg)](https://www.python.org/downloads/)
